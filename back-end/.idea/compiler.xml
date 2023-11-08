@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="t_microservices_config" />
+        <module name="t_microservices_common_web" />
+        <module name="t_microservices_common_tools" />
+        <module name="t_microservice_data" />
+        <module name="t_microservices_ability" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

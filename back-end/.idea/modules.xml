@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/t-system-bi-core.iml" filepath="$PROJECT_DIR$/t-system-bi-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t_microservices_config/t_microservices_config.iml" filepath="$PROJECT_DIR$/t_microservices_config/t_microservices_config.iml" />
+    </modules>
+  </component>
+</project>

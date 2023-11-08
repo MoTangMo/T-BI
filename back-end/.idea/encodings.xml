@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservice_data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservice_data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_ability/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_ability/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t-system-BI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t-system-BI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t-system-BI/t-system-bi-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t-system-BI/t-system-bi-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_blog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_blog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_blog/t_system_blog_core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_blog/t_system_blog_core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_students/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_students/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_students/t_system_student_core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_business/t_system_students/t_system_student_core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/t_microservices_common_tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/t_microservices_common_tools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/t_microservices_common_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_common/t_microservices_common_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_microservices_config/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

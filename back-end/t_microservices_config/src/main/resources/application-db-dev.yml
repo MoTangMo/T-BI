@@ -1,0 +1,8 @@
+server:
+  port: 8011
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.134.212.67:3688/t-system-bi?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 88888888@

@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: 数据库URL（prod环境）
