@@ -30,6 +30,9 @@
         <mp.version>3.5.2</mp.version>
         <druid.version>1.2.6</druid.version>
         <mysql.driver.version>8.0.33</mysql.driver.version>
+        <hutool.version>5.8.16</hutool.version>
+        <openapi3.version>4.3.0</openapi3.version>
+        <knife4j.version>2.0.9</knife4j.version>
     </properties>
 
     <!-- 公用依赖 -->
@@ -75,6 +78,26 @@
                 <groupId>org.example</groupId>
                 <artifactId>t_microservices_common_web</artifactId>
                 <version>${basic.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi3-spring-boot-starter</artifactId>
+                <version>${openapi3.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->

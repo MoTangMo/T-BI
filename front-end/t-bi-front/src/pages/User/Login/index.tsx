@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer';
 import { login } from '@/services/ant-design-pro/api';
 import { getFakeCaptcha } from '@/services/ant-design-pro/login';
+
 import {
   AlipayCircleOutlined,
   LockOutlined,
@@ -18,9 +19,10 @@ import {
 import { useEmotionCss } from '@ant-design/use-emotion-css';
 import { Helmet, history, useModel } from '@umijs/max';
 import { Alert, message, Tabs } from 'antd';
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { flushSync } from 'react-dom';
 import Settings from '../../../../config/defaultSettings';
+import {getChartList} from '../../../services/t-cow/tubiaomokuai';
 const ActionIcons = () => {
   const langClassName = useEmotionCss(({ token }) => {
     return {
@@ -35,6 +37,9 @@ const ActionIcons = () => {
       },
     };
   });
+
+
+
   return (
     <>
       <AlipayCircleOutlined key="AlipayCircleOutlined" className={langClassName} />
@@ -74,9 +79,24 @@ const LoginMessage: React.FC<{
   );
 };
 const Login: React.FC = () => {
+
+  
+
   const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});
   const [type, setType] = useState<string>('account');
   const { initialState, setInitialState } = useModel('@@initialState');
+
+  useEffect(() => {
+    console.log("我进来啦")
+
+    const condition:API.getChartListParams = {condition:{}}
+
+    getChartList(condition).then(res => {
+      console.log(res)
+    })
+
+  },[])
+
   const containerClassName = useEmotionCss(() => {
     return {
       display: 'flex',
@@ -99,6 +119,10 @@ const Login: React.FC = () => {
       });
     }
   };
+
+
+  
+
   const handleSubmit = async (values: API.LoginParams) => {
     try {
       // 登录
@@ -124,6 +148,9 @@ const Login: React.FC = () => {
     }
   };
   const { status, type: loginType } = userLoginState;
+
+
+
   return (
     <div className={containerClassName}>
       <Helmet>
@@ -144,8 +171,8 @@ const Login: React.FC = () => {
             maxWidth: '75vw',
           }}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="Ant Design"
-          subTitle={'Ant Design 是西湖区最具影响力的 Web 设计规范'}
+          title="BI T"
+          subTitle={'BI 智 能 绘 画 表 格 ，让 AI 增 加 浓 彩'}
           initialValues={{
             autoLogin: true,
           }}

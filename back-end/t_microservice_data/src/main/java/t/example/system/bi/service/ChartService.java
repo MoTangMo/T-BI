@@ -2,6 +2,9 @@ package t.example.system.bi.service;
 
 import t.example.system.bi.domain.Chart;
 import com.baomidou.mybatisplus.extension.service.IService;
+import t.example.system.bi.domain.condition.ChartCondition;
+
+import java.util.List;
 
 /**
 * @author Administrator
@@ -9,5 +12,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @createDate 2023-11-08 10:55:40
 */
 public interface ChartService extends IService<Chart> {
+
+    List<Chart> getListByCondition(ChartCondition condition);
+
 
 }

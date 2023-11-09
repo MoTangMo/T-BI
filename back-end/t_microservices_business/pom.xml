@@ -30,6 +30,14 @@
         </dependency>
 
         <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+
+
+
+
+        <dependency>
             <groupId>org.example</groupId>
             <artifactId>t_microservices_common_web</artifactId>
         </dependency>

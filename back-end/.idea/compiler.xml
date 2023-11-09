@@ -9,6 +9,7 @@
         <module name="t_microservices_config" />
         <module name="t_microservices_common_web" />
         <module name="t_microservices_common_tools" />
+        <module name="t-system-bi-core" />
         <module name="t_microservice_data" />
         <module name="t_microservices_ability" />
       </profile>

@@ -8,14 +8,8 @@
     </parent>
 
     <artifactId>t-system-bi-core</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <distributionManagement>
-        <site>
-            <id>website</id>
-            <url>scp://webhost.company.com/www/website</url>
-        </site>
-    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
