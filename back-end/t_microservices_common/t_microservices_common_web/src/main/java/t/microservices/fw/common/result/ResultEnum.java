@@ -16,7 +16,9 @@ import java.io.Serializable;
 public enum ResultEnum implements Serializable {
 
     SUCCESS(200,"请求成功"),
-    FAIL(50000,"请求失败");
+    FAIL(50000,"请求失败"),
+    ERROR_PASSWORD(50001,"密码错误"),
+    ERROR_USERNAME(50002,"用户名不存在");
 
 
     private  Integer code;
